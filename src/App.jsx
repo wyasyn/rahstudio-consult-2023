@@ -1,19 +1,16 @@
-import './App.scss'
-import { useTheme } from './ThemeContext/ThemeContext'
-import {Blog, MainPage, Projects} from './Pages'
 import { Route, Routes } from 'react-router-dom'
+import LayOut from './LayOut/LayOut'
+import './App.scss'
 
 function App() {
 
-  const {theme} = useTheme()
 
   return (
-      <div id='home' className={`App ${theme}`}>
-        <Routes>
-          <Route path='/' element={<MainPage />} />
-          <Route path='blog' element={ <Blog /> } />
-          <Route path='projects' element={ <Projects /> } />
-        </Routes>
+      <div  className='App'>
+          <Routes>
+            <Route path='/' element={ <LayOut /> }>
+            </Route>
+          </Routes>
       </div>
   )
 }

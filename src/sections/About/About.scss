@@ -1,0 +1,19 @@
+.about {
+    .about-container {
+        @media screen and (min-width:48rem) {
+            position: relative;
+        }
+        .qualities {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            @media screen and (min-width:48rem) {
+                position: absolute;
+                grid-template-columns: 1fr 1fr 1fr;
+                top: -20rem;
+                padding: 1em;
+                background-color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.hero {
+    background-image: url('../../assets/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 40rem;
+    .hero-container {
+        padding-top: 10em;
+        h2 {
+            font-size: 3.5rem;
+            color: #fff;
+            margin-bottom: 2em;
+            text-wrap: balance;
+            line-height: 1.4;
+            @media screen and (max-width:26.25rem) {
+                font-size: 2.5rem;
+            }
+        }
+    }
+    @media screen and (min-width:48rem) {
+        background-image: url('../../assets/a9.jpg');
+        min-height: 50rem;
+        background-position: center;
+        background-size: cover;
+    }
+    @media screen and (min-width:64rem){
+        min-height: 65rem;
+    }
+    @media screen and (min-width:81.25rem){
+       background-image: url('../../assets/andy-kelly-0E_vhMVqL9g-unsplash.jpg');
+    }
+}
