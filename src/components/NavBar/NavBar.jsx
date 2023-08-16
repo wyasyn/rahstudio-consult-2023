@@ -43,7 +43,7 @@ function NavBar() {
                 </div>
                 <ul className='nav-list center'>
                 {
-                    [ "home", "about", "projects", "services", "testimonials", "Blog", "contact" ].map((data, index) => (
+                    [ "home", "about", "projects", "services", "testimonials", "blog", "contact" ].map((data, index) => (
                         <li key={index} className='nav-item'>
                             <a href={`#${data}`} className='nav-link' onClick={closeMenu} >{data}</a>
                         </li>
