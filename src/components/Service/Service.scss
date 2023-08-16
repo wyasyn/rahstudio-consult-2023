@@ -1,0 +1,44 @@
+.service {
+    display: grid;
+    .service-photo {
+        aspect-ratio: 16/9;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .service-content {
+        position: relative;
+        background-color: #041e41;
+        text-align: center;
+        padding: 2em 1em;
+        .icon {
+            position: absolute;
+            top: -2.5rem;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width: 5rem;
+            height: 5rem;
+            background-color: #041e41;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+            color: #fefffa;
+            font-size: 2.5rem;
+        }
+        h4 {
+            color: #13818e;
+            margin-bottom: 1em;
+        }
+        p {
+            color: #b2bbcc;
+        }
+    }
+}

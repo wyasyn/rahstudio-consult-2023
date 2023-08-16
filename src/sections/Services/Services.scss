@@ -1,0 +1,14 @@
+.services {
+    background-color: #eff3f6;
+    .services-content {
+        display: grid;
+        gap: 5rem;
+        grid-template-columns: 1fr;
+        @media screen and (min-width:48rem) {
+            grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (min-width:64rem) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}

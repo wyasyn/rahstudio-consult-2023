@@ -1,0 +1,22 @@
+.contact2 {
+    background-color: #eff3f6;
+    display: grid;
+    padding: 3em 2em;
+    height: 100%;
+    h4 {
+        font-size: 2rem;
+    }
+    form {
+        display: grid;
+        gap: 2rem;
+        margin-top: 2em;
+        .input {
+            padding: 1em;
+            width: 100%;
+            resize: none;
+        }
+        .btn {
+            cursor: pointer;
+        }
+    }
+}

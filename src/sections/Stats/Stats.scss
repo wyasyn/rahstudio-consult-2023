@@ -1,0 +1,31 @@
+.stats {
+    background-color: #1c3554;
+    .stats-container {
+        display: grid;
+        gap: 5rem;
+        grid-template-columns: 1fr 1fr;
+        @media screen and (min-width:48rem) {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .stat {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            .number {
+                color: #4ac4d1;
+                font-size: 3rem;
+                font-weight: 700;
+                @media screen and (max-width:48rem){
+                    font-size: 1.7rem;
+                }
+            }
+            .detail {
+                color: #aebfd9;
+                font-size: 1.2rem;
+                @media screen and (max-width:48rem){
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

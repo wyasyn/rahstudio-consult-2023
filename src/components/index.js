@@ -2,3 +2,13 @@ export {default as TopFooter } from "./TopFooter/TopFooter";
 export {default as NavBar } from "./NavBar/NavBar";
 export {default as Hero } from "./Hero/Hero";
 export {default as Quality } from "./Quality/Quality";
+export {default as Title } from "./Title/Title";
+export {default as Service } from "./Service/Service";
+export {default as Project } from "./Project/Project"
+export {default as ProjectContent1 } from "./ProjectContent1/ProjectContent1"
+export {default as ProjectContent2 } from "./ProjectContent2/ProjectContent2"
+export {default as ProjectContent3 } from "./ProjectContent3/ProjectContent3"
+export {default as Testimony } from "./Testimony/Testimony"
+export {default as BlogCard } from "./BlogCard/BlogCard"
+export {default as Contact1 } from "./Contact1/Contact1"
+export {default as Contact2 } from "./Contact2/Contact2"

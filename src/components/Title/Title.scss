@@ -1,0 +1,16 @@
+.main-title {
+        position: relative;
+        display: grid;
+        padding: 1em 0;
+        border-top: 1px solid #e3e7ea;
+        color: #001b3d;
+        &::before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 15rem;
+            height: 1px;
+            background-color: var(--primary);
+        }
+}

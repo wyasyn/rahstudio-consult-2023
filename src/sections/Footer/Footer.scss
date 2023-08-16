@@ -1,0 +1,67 @@
+.footer {
+    background-color: #041e41;
+    padding: 10rem 0;
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+             @media screen and (min-width:64rem) {
+            justify-content: flex-start;
+        }
+            .flex {
+                gap: 0.5rem;
+                align-items: center;
+            }
+            .logo {
+                color: #fff;
+                font-size: 4rem;
+            }
+            .title {
+                flex-direction: column;
+                gap: 0.1rem;
+                line-height: 1.1;
+                .name {
+                    font-size: 2.3rem;
+                    color: #fff;
+                }
+                .sub-name {
+                    color: var(--primary);
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        .socials {
+            align-items: center;
+            justify-content: center;
+            svg {
+                color: #fff;
+                font-size: 2rem;
+                -webkit-transition: var(--transition);
+                -moz-transition: var(--transition);
+                -ms-transition: var(--transition);
+                -o-transition: var(--transition);
+                transition: var(--transition);
+                &:hover {
+                    color: var(--primary);
+                }
+            }
+        }
+        .copy-right {
+            color: #fff;
+            text-align: center;
+            .author {
+                color: var(--primary);
+            }
+        }
+        @media screen and (min-width:48rem) {
+            grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (min-width:64rem) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}

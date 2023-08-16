@@ -16,4 +16,33 @@
             }
         }
     }
+    .about-content {
+        padding-top: 3em;
+        .row {
+            display: grid;
+            gap: 3rem;
+            margin-top: 1em;
+            @media screen and (min-width:48rem){
+                grid-template-columns: 1fr 1fr;
+                gap: 5rem;
+            }
+            .col-1 {
+                .about-info {
+                    h3 {
+                        color: #464650;
+                        text-wrap: balance;
+                        margin-bottom: 0.7em;
+                    }
+                }
+            }
+            .col-2 {
+                aspect-ratio: 16/9;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
 }

@@ -4,6 +4,7 @@
     line-height: 1.5;
     background-color: #fff;
     color: #6f6f6f;
+    overflow: hidden;
 }
 
 .container {
@@ -17,6 +18,9 @@
 
 section {
     padding: 10rem 0;
+    @media screen and (max-width:48rem) {
+        padding: 5rem 0;
+    }
 }
 
 .flex {

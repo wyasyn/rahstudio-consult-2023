@@ -1,0 +1,38 @@
+.testimony {
+    display: flex;
+    gap: 3rem;
+    .col-1 {
+        .image {
+            display: grid;
+            place-items: center;
+            gap: 1.5rem;
+            text-align: center;
+            img {
+                width: 10rem;
+                height: 10rem;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .info {
+                .name {
+                    display: block;
+                    color: #2c262a;
+                    font-weight: 500;
+                }
+                .title {
+                    color: #9c99aa;
+                }
+            }
+        }
+    }
+    .col-2 {
+        max-width: 48rem;
+    }
+    @media screen and (max-width:25rem) {
+        flex-direction: column;
+    }
+}

@@ -5,7 +5,7 @@ function Hero() {
     <div className='hero'>
         <div className="hero-container container">
             <h2>
-                Architects with <br /> a different approach
+                Architecture with <br /> People in Mind.
             </h2>
             <div className="hero-cta flex">
                 <a href="#projects" className="btn">Our Projects</a>

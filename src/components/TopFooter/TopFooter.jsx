@@ -7,16 +7,16 @@ function TopFooter() {
       <div className="top-footer-container container flex">
       <p>Inspiring design justified</p>
       <div className="socials flex">
-        <a href="#">
+        <a href="https://www.facebook.com/" target='_blank' rel='noreferrer'>
           <FaFacebookF />
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/" target='_blank' rel='noreferrer'>
           <FaInstagram />
         </a>
-        <a href="#">
+        <a href="https://www.pinterest.com/" target='_blank' rel='noreferrer'>
           <FaPinterest />
         </a>
-        <a href="#">
+        <a href="https://www.dribbble.com/" target='_blank' rel='noreferrer'>
           <FaDribbble />
         </a>
       </div>

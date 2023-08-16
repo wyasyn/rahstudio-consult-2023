@@ -1,0 +1,37 @@
+.projects {
+    .projects-container {
+        nav {
+            margin-block: 2em;
+            .P-link {
+                color: #5c5451;
+                text-transform: uppercase;
+                font-weight: 500;
+                -webkit-transition: var(--transition);
+                -moz-transition: var(--transition);
+                -ms-transition: var(--transition);
+                -o-transition: var(--transition);
+                transition: var(--transition);
+                &:hover {
+                    color: var(--primary);
+                }
+                &.active {
+                    color: var(--primary);
+                }
+                @media screen and (max-width:28.125rem) {
+                    font-size: 1rem;
+                }
+            }
+        }
+        .projects-content {
+            display: grid;
+            gap: 2.5rem;
+            grid-template-columns: 1fr;
+            @media screen and (min-width:48rem) {
+                grid-template-columns: 1fr 1fr;
+            }
+            @media screen and (min-width:64rem) {
+                grid-template-columns: 1fr 1fr 1fr ;
+            }
+        }
+    }
+}

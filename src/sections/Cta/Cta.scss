@@ -1,0 +1,16 @@
+.new-cta {
+    background-color: #1c3554;
+    text-align: center;
+    .cta-container {
+        flex-direction: column;
+        h3 {
+            margin-bottom: 1em;
+            color: #fefcf0;
+        }
+        p {
+            color: #b2bbcc;
+            margin-bottom: 1.5em;
+            max-width: 50rem;
+        }
+    }
+}
