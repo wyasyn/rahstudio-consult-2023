@@ -3,6 +3,7 @@ import { FaDribbble, FaFacebookF, FaInstagram, FaPinterest } from 'react-icons/f
 import './Footer.scss'
 
 function Footer() {
+    const currentYear = new Date().getFullYear()
   return (
     <footer className="footer">
         <div className="footer-container container">
@@ -36,7 +37,7 @@ function Footer() {
                     </a>
             </div>
             <p className="copy-right">
-                &copy; 2023 RAHSTUDIO by <a className='author' href="https://ywalum.com/" target='_blank' rel='noreferrer'>Yasin Walum</a>. All Rights Reserved.
+                &copy; {currentYear} RAHSTUDIO by <a className='author' href="https://ywalum.com/" target='_blank' rel='noreferrer'>Yasin Walum</a>. All Rights Reserved.
             </p>
         </div>
     </footer>
