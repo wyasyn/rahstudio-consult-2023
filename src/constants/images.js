@@ -33,7 +33,6 @@ import i8 from "../assets/i8.jpg";
 import i9 from "../assets/i9.jpg";
 import i10 from "../assets/i10.jpg";
 import i11 from "../assets/i11.jpg";
-import logo from "../assets/logo-house.svg"
 import profile1 from "../assets/profile1.jpg"
 import profile2 from "../assets/profile2.jpg"
 import profile3 from "../assets/profile3.jpg"
@@ -78,7 +77,6 @@ export const images = {
    i9,
    i10,
    i11,
-   logo,
    profile1,
    profile2,
    profile3,
