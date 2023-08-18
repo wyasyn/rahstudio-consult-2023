@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import LayOut from './LayOut/LayOut'
 import './App.scss'
-import { ProjectContent1, ProjectContent2, ProjectContent3 } from './components'
+import { BackToTop, ProjectContent1, ProjectContent2, ProjectContent3 } from './components'
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
               </Route>
             </Route>
           </Routes>
+          <BackToTop />
       </div>
   )
 }
