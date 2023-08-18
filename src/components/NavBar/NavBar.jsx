@@ -5,6 +5,10 @@ import { useState } from 'react'
 
 function NavBar() {
     const [ open, setOpen ] = useState(false);
+
+    open ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto"
+
+
     const openMenu = () => {
         setOpen(true)
     };
